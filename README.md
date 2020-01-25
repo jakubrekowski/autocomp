@@ -1,3 +1,31 @@
 # autocomp
 
-c++ automatic compiler for linux
+A simple c++ automatic compiler for linux.
+
+## install & use
+
+**compile**
+```
+git clone https://gitlab.com/jakub.rekowski/autocomp.git
+cd autocomp
+g++ main.cpp -o autocomp
+```
+
+**use in project** (after the compilation)
+1. copy to project folder
+```[bash]
+cp autocomp ~/example/path-to-your/project/autocomp
+```
+2. use it to compile
+```
+./autocomp
+```
+
+**install global as command** (even after the compilation)
+```
+sudo cp autocomp /bin/autocomp
+```
+
+## license
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
