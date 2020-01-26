@@ -26,6 +26,10 @@ cp autocomp ~/example/path-to-your/project/autocomp
 sudo cp autocomp /bin/autocomp
 ```
 
+## donate
+
+[Donate me with PayPal](https://www.paypal.me/jakubReq)
+
 ## license
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
