@@ -28,7 +28,7 @@ sudo cp autocomp /bin/autocomp
 
 ## donate
 
-[Donate me with PayPal](https://www.paypal.me/jakubReq)
+[Donate me with PayPal](https://www.paypal.me/jakubReq) and support this project.
 
 ## license
 
