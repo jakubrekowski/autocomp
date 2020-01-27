@@ -4,6 +4,15 @@ A simple c++ automatic compiler for linux.
 
 ## install & use
 
+**packets required**
+
+For the program to work properly you only need g++.
+
+If you haven't g++, type this in terminal:
+```
+sudo apt install g++
+```
+
 **compile**
 ```
 git clone https://gitlab.com/jakub.rekowski/autocomp.git
