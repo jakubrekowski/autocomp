@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-    cout << "autocomp v0.13 | https://github.com/rekubrekowski/autocomp\n\n";
+    cout << "autocomp v1.0 | https://github.com/rekubrekowski/autocomp\n\n";
   
     if (argv[1] == 0)
     {
@@ -14,8 +14,22 @@ int main(int argc, char **argv) {
     }
     else
     {
-        system(("g++ " + argv[1] + " -o main && ./main").c_str());
+        string files = "";
+    
+        for (int i = 1; i < argc; i++)
+        {
+            files = files + argv[i] + " ";
+        }
+        
+
+        string str = "g++ "; 
+        str = str + files + " -o main "; 
+
+        const char *command = str.c_str(); 
+    
+        system(command); 
+        system("./main");
     }    
-  
+
     return 0;
 }
