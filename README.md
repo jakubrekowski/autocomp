@@ -25,10 +25,7 @@ g++ main.cpp -o autocomp
 ```[bash]
 cp autocomp ~/example/path-to-your/project/autocomp
 ```
-2. use it to compile
-```
-./autocomp
-```
+2. use it to compile all .cpp files```./autocomp```, or defined .cpp files  ```./autocomp main.cpp sth.cpp lol.cpp```
 
 **install global as command** (even after the compilation)
 ```
