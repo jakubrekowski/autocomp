@@ -5,11 +5,10 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-    cout << "autocomp v1.0 | https://github.com/rekubrekowski/autocomp\n\n";
+    cout << "autocomp v1.1 | https://github.com/rekubrekowski/autocomp\n\n";
   
     if (argv[1] == 0)
     {
-        cout << "You haven't define any files";
         system("g++ *.cpp -o main && ./main");
     }
     else
