@@ -15,7 +15,7 @@ sudo apt install g++
 
 **compile**
 ```
-git clone https://github.com/rekubrekowski/autocomp.git
+git clone https://github.com/jakubrekowski/autocomp.git
 cd autocomp
 g++ main.cpp -o autocomp
 ```
