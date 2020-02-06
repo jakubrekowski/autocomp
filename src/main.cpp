@@ -5,7 +5,7 @@
 using namespace std;
 
 int main(int argc, char **argv) {
-    cout << "autocomp v1.1 | https://github.com/rekubrekowski/autocomp\n\n";
+    cout << "autocomp v1.1 | https://github.com/jakubrekowski/autocomp\n\n";
   
     if (argv[1] == 0)
     {
