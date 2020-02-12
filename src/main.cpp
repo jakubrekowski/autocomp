@@ -4,9 +4,7 @@
 
 using namespace std;
 
-int main(int argc, char **argv) {
-    cout << "autocomp v1.1 | https://github.com/jakubrekowski/autocomp\n\n";
-  
+int main(int argc, char **argv) {  
     if (argv[1] == 0)
     {
         system("g++ *.cpp -o main && ./main");
